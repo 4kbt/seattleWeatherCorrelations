@@ -3,7 +3,7 @@ mentioned to Susan that "next month will probably be warm, because
 we'll regress to the mean". She disagreed, and so I did an analysis like this 
 one. I'll let you figure out who was more correct.
 
-These are data from SeaTac Airport from 1948-present. The data were originally
+These are data from SeaTac Airport from 1948-present [1]. The data were originally
 in CSV format (I've appended it, and the unix script I used to parse it, in case
 you're curious). I've tab-delimited the relevant columns and provided an import
 Octave script to get things started.
@@ -17,3 +17,7 @@ correlate with the temperature (relative to average) in the following month?
 2. How much does the precipitation (relative to average) in a given month 
 correlate with the precipitation (relative to average) in the following month?
 3 months out? 6 months out? A year out?  Quantify the uncertainties.
+
+
+[1] NOAA Climate Data Online request 1000478, 2017-06-22 GHCND:USW00024233
+	Precip, TMax, TMin
